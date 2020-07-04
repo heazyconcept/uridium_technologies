@@ -764,11 +764,11 @@ h1.hero-title, h2.hero-title, h3.hero-title {
         padding: 70px 0;
     }
     .values-item {
-    margin-bottom: 20px;
-    max-width: 86%;
-    margin-left: auto;
-    max-height: unset;
-}
+        margin-bottom: 20px;
+        max-width: 100%;
+        margin-left: auto;
+        max-height: unset;
+    }
     .leadership-header {
         font-size: 35px;
         margin-bottom: 10px;
@@ -787,6 +787,12 @@ h1.hero-title, h2.hero-title, h3.hero-title {
     .leadership-item .card-text {
         font-size: 23px;
     }
+    .leadership-overlay{
+        display: none;
+    }
+    .leadership-item:hover .leadership-overlay {
+        display: none;
+    }
     .about-uridium {
         display: none;
     }
@@ -798,11 +804,13 @@ h1.hero-title, h2.hero-title, h3.hero-title {
         text-align: center;
     }
     .member-position h4 {
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
+        margin-bottom: 0;
     }
-    .member-profile{
+    .member-profile {
         text-align: center;
+        font-size: 13px;
     }
     div#navcol-1 {
     display: none;
@@ -862,8 +870,11 @@ p.services-head-sub-title {
     display: block;
 }
 .btn-mdl-close {
-    max-width: 30%;
+    max-width: 40%;
     margin: auto;
+}
+.member-name {
+    padding-top: 12px;
 }
 .mobile-cover {
     max-width: unset!important;
@@ -901,5 +912,10 @@ p.hero-subtitle {
 .carousel-control-prev i.fas, .carousel-control-next i.fas {
     padding: 6px 11px;
 }
-
+.member-position {
+    margin-bottom: 16px;
+}
+.modal-body {
+    padding: 20px 0;
+}
 }

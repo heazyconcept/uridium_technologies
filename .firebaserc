@@ -5,11 +5,11 @@
   "targets": {
     "uridiumtechnologies": {
       "hosting": {
-        "test-uridium": [
-          "uridiumtechnologies"
+        "dev-uridiumtechnologies": [
+          "dev-uridiumtechnologies"
         ],
-        "test": [
-          "test-uridium"
+        "uridiumtechnologies": [
+          "uridiumtechnologies"
         ]
       }
     }
