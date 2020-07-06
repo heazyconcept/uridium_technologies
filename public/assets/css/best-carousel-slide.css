@@ -42,8 +42,8 @@ p.hero-subtitle {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #016090;
-  border-color: #016090;
+  background-color: rgb(162,187,193);
+  border-color: #a2bbc1;
 }
 
 .btn.btn-primary {
