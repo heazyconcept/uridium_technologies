@@ -536,7 +536,7 @@
                 <strong>Phone number: </strong> ${phone} <br><br>
                 <strong>Preferred course: </strong> ${course} <br><br>
                 </p>`;
-                $.get("/public/general.html")
+                $.get("/general.html")
                     .done(
                         (resp) => {
                             var body = resp.replace("{{customerName}}", "Admin").replace("{{mailBody}}", message);
