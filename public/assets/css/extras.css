@@ -495,6 +495,166 @@ h1.hero-title, h2.hero-title, h3.hero-title {
     max-height: 400px;
     overflow: hidden;
 }
+.training-banner-wrapper {
+    padding: 120px 0;
+    background: url(../img/training_banner.png);
+    background-position: 0px -93px;
+    background-size: 122%;
+    position: relative;
+}
+.training-head {
+    margin-bottom: 45px!important;
+}
+.overlay.overlay-purple {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #1e024bdb;
+}
+h2.banner-text-lead {
+    max-width: 541px;
+    margin: auto;
+}
+.banner-cta.text-center {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+.banner-text-wrapper{
+    position: relative;
+}
+.banner-text-lead {
+    line-height: 40px;
+}
+.training-wrapper{
+    margin-top: 120px;
+}
+.courses-wrapper{
+    padding: 100px 0;
+}
+.section-lead h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-lead{
+    margin-bottom: 50px;
+}
+.category-lead h4 {
+    font-size: 30px;
+}
+.category-lead{
+    margin-bottom: 20px;
+}
+.course-item {
+    border: 1px solid;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    /* padding: 20px; */
+}
+.course-image {
+    padding: 40px 20px;
+    max-height: 238px;
+}
+.course-image img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 190px;
+}
+.course-title {
+    color: white;
+    background: black;
+    padding: 14px;
+    font-size: 19px;
+}
+
+.green{
+    border-color: #458c41;
+}
+.green .course-title{
+    background-color:  #458c41  ;
+}
+.course-category{
+    margin-bottom: 50px;
+}
+.red{
+    border-color: #932522;
+}
+.red .course-title{
+    background-color:  #932522;
+}
+.blue{
+    border-color: #1b65bd;
+}
+.blue .course-title{
+    background-color:  #1b65bd;
+}
+.orange{
+    border-color: #f4581e;
+}
+.orange .course-title{
+    background-color:  #f4581e;
+}
+.registration-wrapper{
+    margin-top: -100px;
+}
+.reg-training-lead {
+    padding: 5px;
+    background: #000;
+    border-left: 40px solid #45ff00;
+    padding-left: 18px;
+    margin-bottom: 30px;
+    color: white;
+}
+.reg-training-lead h3{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.register-form-wrapper{
+    margin-top: 100px;
+    font-size: 22px;
+}
+.register-form-lead h2 {
+    font-size: 43px;
+    font-weight: 700;
+}
+.training-form{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.training-form label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.training-form .form-group {
+    margin-bottom: 30px;
+}
+.training-form .form-control {
+    min-height: 50px;
+    background: white;
+    border: 1px solid #0000006b;
+}
+.training-form .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #0000002e;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #0000002e;
+}
+.arrow-down {
+    position: absolute;
+    bottom: -47%;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+.arrow-down .material-icons {
+    font-size: 55px;
+    cursor: pointer;
+}
 @media only screen and (min-width: 1400px)  {
     .home-banner-section {
         padding: 135px 0 150px;
@@ -917,5 +1077,53 @@ p.hero-subtitle {
 }
 .modal-body {
     padding: 20px 0;
+}
+.training-banner-wrapper {
+    padding: 70px 0;
+    background: url(../img/training_banner.png);
+    background-position: 0px -93px;
+    background-size: 284%;
+    position: relative;
+}
+h2.banner-text-lead {
+    max-width: 541px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 29px;
+}
+.arrow-down {
+    position: absolute;
+    bottom: -31%;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+.section-lead {
+    margin-bottom: 30px;
+}
+.category-lead h4 {
+    font-size: 23px;
+    font-weight: 600;
+}
+.reg-training-lead {
+    padding: 5px;
+    background: #000;
+    border-left: 20px solid #45ff00;
+    padding-left: 18px;
+    margin-bottom: 30px;
+    color: white;
+}
+.reg-training-lead h3 {
+    padding-top: 5px;
+    font-size: 16px;
+}
+.register-form-wrapper {
+    margin-top: 50px;
+    font-size: 16px;
+}
+.training-form label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 }
