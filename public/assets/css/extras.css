@@ -498,8 +498,7 @@ h1.hero-title, h2.hero-title, h3.hero-title {
 .training-banner-wrapper {
     padding: 120px 0;
     background: url(../img/training_banner.png);
-    background-position: 0px -93px;
-    background-size: 122%;
+    background-size: cover;
     position: relative;
 }
 .training-head {
@@ -1081,8 +1080,7 @@ p.hero-subtitle {
 .training-banner-wrapper {
     padding: 70px 0;
     background: url(../img/training_banner.png);
-    background-position: 0px -93px;
-    background-size: 300%;
+    background-size: cover;
     position: relative;
 }
 h2.banner-text-lead {
@@ -1093,7 +1091,7 @@ h2.banner-text-lead {
 }
 .arrow-down {
     position: absolute;
-    bottom: -31%;
+    bottom: -25%;
     margin: auto;
     display: block;
     width: 100%;
