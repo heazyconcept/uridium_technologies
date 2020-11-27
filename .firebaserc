@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "uridiumtechnologies"
+  },
+  "targets": {
+    "uridiumtechnologies": {
+      "hosting": {
+        "dev-uridiumtechnologies": [
+          "dev-uridiumtechnologies"
+        ],
+        "uridiumtechnologies": [
+          "uridiumtechnologies"
+        ]
+      }
+    }
+  }
+}
